@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'general-sans';
+  src: url('/Fonts/OTF/GeneralSans-Regular.otf') format('opentype');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-general-sans: 'general-sans', sans-serif;
+}
+/* Add to your CSS file or Tailwind config */
+
+
+html, body{
+  font-family: var(--font-general-sans);
+}
